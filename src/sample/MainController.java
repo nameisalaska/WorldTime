@@ -85,9 +85,8 @@ public class MainController implements Initializable {
                 animationGrow.playFromStart();
             }
         } );
-        // когда курсор сдвигается -- запускаем анимацию уменьшения
+    
         mapIcon.setOnMouseExited( new EventHandler<MouseEvent>() {
-
             public void handle(MouseEvent event) {
                 animationGrow.stop();
                 animationShrink.playFromStart();
