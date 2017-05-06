@@ -5,7 +5,9 @@ import javafx.scene.text.Font;
 
 /**
  * Created by Alaska on 27.01.2017.
+ * this class not used here yet.
  */
+
 public class MyButton {
     public double  width;
     public double  height;
